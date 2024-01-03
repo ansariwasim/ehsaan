@@ -12,13 +12,13 @@ function Navbar() {
   return (
     <>
     <div className="text-white flex justify-between item-center h-24 max-w-[1240px] mx-auto px-3">
-    <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">JENI.</h1>
+    <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 ">AHSAAN.</h1>
        <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4 text-xl font-bold text-[#00df9a] ">Home</li>
+        <li className="p-4 text-xl font-bold hover:text-[#00df9a]">Company</li>
+        <li className="p-4 text-xl font-bold hover:text-[#00df9a]">Resources</li>
+        <li className="p-4 text-xl font-bold hover:text-[#00df9a]">About</li>
+        <li className="p-4 text-xl font-bold hover:text-[#00df9a]">Contact</li>
        
         
        </ul>
@@ -29,12 +29,12 @@ function Navbar() {
        </div>
 
        <div className={!nav? 'fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-[#000300] ease-in-out duration-1000':"fixed left-[-100%] "} >
-    <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 px-3">JENI.</h1>
+    <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 px-3">AHSAAN.</h1>
         
 
         <ul className=' uppercase p-4'>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">Company</li>
+        <li className="p-4 border-b border-gray-600 ">Home</li>
+        <li className="p-4 border-b border-gray-600 ">Company</li>
         <li className="p-4 border-b border-gray-600">Resources</li>
         <li className="p-4 border-b border-gray-600">About</li>
         <li className="p-4">Contact</li>
