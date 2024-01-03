@@ -9,7 +9,7 @@ function Hero() {
          <h1 className='text-[#00df9a] font-bold p-2 text-3xl'>WELCOME TO EHSAAN ERA</h1>
          <h2>ABOUT ME.</h2>
          <h1>A WEBSITE FOR    <Typed 
-         strings={["wasim","Ansari","jeni"]}
+         strings={["WASIM","AHSAAN","JENI"]}
          typeSpeed={120}
          backSpeed={140}
          loop
